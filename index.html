@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Portofolio Website</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="outer-container">
+    <hr class="top" id="Home">
+
+    <!-- Header -->
+    <header>
+        <div class="main-container">
+            <div class="nav">
+                <div class="logo">
+                    <p class="red">Rama's</p>
+                    <p class="wht">Portofolio</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">About Me</a></li>
+                        <li><a href="#Contact">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Home -->
+    <div class="content">
+        <div class="home-img">
+            <img src="Rama1.png" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, it's <span>Rama</span> here.</h1>
+            <h3 class="typing-text">and, I'm a <span class="auto-type"></span></h3>
+            <p>
+                I am a student from Indonesia, I have a hobby of coding, my journey began when I entered SMKN 5 Surakarta. At school I was taught various kinds of new things, such as this coding. When I first got to know it, I immediately fell in love with it, therefore, I want to show what I can in this portfolio website.
+            </p>
+        </div>
+    </div>
+
+    <hr class="top" id="About">
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Student", "Programmer", "Designer", "Gamer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        });
+    </script>
+    <!-- Home End -->
+
+    <!-- About Me -->
+    <section class="About" id="About">
+        <div class="Title">
+            <h1>About Me</h1>
+        </div>
+
+        <div class="pembatas">
+            <hr class="sekat">
+            <hr class="sekat2">
+        </div>
+
+        <div class="Expl">
+            <img src="Rama2.png" alt="gambar">
+            <p><strong><span>Intro</span><span class="notwhite">duction</span></strong><br />
+                Hi, my name is <span>Rama.</span> I was born on <span class="blue">April 30, 2009</span> in the city of <span>Surakarta.</span> Currently, I am attending <span class="white">SMKN 5 Surakarta</span>, and majoring in <span>Software Engineering.</span> My curiosity about technology brought me to this school, where making code is not as easy as turning the palm of the hand. However, it is the difficulties that shape my logical thinking, where I have to think critically. In this portfolio, I will explain everything you should know about me. So, just sit back, relax, and enjoy.
+            </p>
+        </div>
+    </section>
+    <!-- About Me End -->
+
+    <!-- Education -->
+    <section class="Education">
+        <div class="Title">
+            <h1>Education</h1>
+        </div>
+
+        <div class="pembatas">
+            <hr class="sekat">
+            <hr class="sekat2">
+        </div>
+
+        <div class="card-container swiper">
+            <div class="card-wrapper">
+                <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide">
+                        <a href="https://www.instagram.com/kidsland_intrschool/" target="_blank" class="card-link">
+                            <img src="Education (1).png" alt="Card image" class="card-image">
+                            <p class="badge">Kindergarten</p>
+                            <h2 class="card-title">Kids Land International School</h2>
+                            <button class="card-button material-symbols-outlined">arrow_forward</button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="https://www.instagram.com/stanska19/" target="_blank" class="card-link">
+                            <img src="Education (2).png" alt="Card image" class="card-image">
+                            <p class="badge">Elementary School</p>
+                            <h2 class="card-title">SDN Kawatan No. 19 Surakarta</h2>
+                            <button class="card-button material-symbols-outlined">arrow_forward</button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="https://www.instagram.com/smpn10surakarta/" target="_blank" class="card-link">
+                            <img src="Education (3).png" alt="Card image" class="card-image">
+                            <p class="badge">Junior High School</p>
+                            <h2 class="card-title">SMP Negeri 10 Kota Surakarta</h2>
+                            <button class="card-button material-symbols-outlined">arrow_forward</button>
+                        </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="https://www.instagram.com/smknegeri5surakarta/" target="_blank" class="card-link">
+                            <img src="Education (4).png" alt="Card image" class="card-image">
+                            <p class="badge">Vocational High School</p>
+                            <h2 class="card-title">SMK Negeri 5 Kota Surakarta</h2>
+                            <button class="card-button material-symbols-outlined">arrow_forward</button>
+                        </a>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Education End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Skills -->
+    <section class="Skills">
+        <div class="Title">
+            <h1>Skills & Hobbies</h1>
+        </div>
+
+        <div class="pembatas">
+            <hr class="sekat">
+            <hr class="sekat2">
+        </div>
+
+        <div class="content1">
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-pencil"></i>
+                    </div>
+                    <div class="topic">Studying</div>
+                    <p>Studying is the process of acquiring knowledge, skills, or understanding through reading, observation, practice, or instruction. It involves engaging with material in a focused manner to learn and retain information.</p>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="topic">Coding</div>
+                    <p>Coding is the process of writing instructions for computers using programming languages. These instructions, known as code, tell the computer how to perform specific tasks or solve problems.</p>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-broom"></i>
+                    </div>
+                    <div class="topic">Cleaning</div>
+                    <p>Cleaning is the process of removing dirt, dust, stains, and other impurities from surfaces, objects, or environments to maintain hygiene, order, and aesthetic appeal. Aimed at cleanliness and sanitation.</p>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-desktop"></i>
+                    </div>
+                    <div class="topic">Web Developing</div>
+                    <p>Web Development is the process of creating and maintaining websites and web applications. It encompasses a wide range of tasks and disciplines, including web design, web content development, client-side and server-side scripting.</p>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-paintbrush"></i>
+                    </div>
+                    <div class="topic">Web Designing</div>
+                    <p>Web Design is the process of creating the visual layout, user interface, and overall aesthetic of a website. It encompasses various aspects, including the arrangement of content, color schemes, typography, images, and interactive elements.</p>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-microphone-lines"></i>
+                    </div>
+                    <div class="topic">Public Speaking</div>
+                    <p>Public Speaking is the act of delivering a structured message to an audience with the intent to inform, persuade, entertain, or motivate. It involves the use of communication skills to convey ideas effectively and engage listeners.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills End -->
+
+    <!-- Footer -->
+    <div class="footer-container" id="Contact">
+        <div class="Title">
+            <h1>Contacts</h1>
+        </div>
+
+        <div class="pembatas">
+            <hr class="sekat">
+            <hr class="sekat2">
+        </div>
+
+        <div class="footer-contact">
+            <a href="index2.html" id="Contact">Continue To Chat<i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="information">
+            <p>For more information please click the link below to know me further.</p>
+        </div>
+        <div class="icons-wrapper">
+            <div class="footer-icons">
+                <a href="https://www.instagram.com/ramaditya_surya_putra/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="footer-icons">
+                <a href="https://id.pinterest.com/GeorgiusSurya_/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+            <div class="footer-icons">
+                <a href="https://www.threads.net/@ramaditya_surya_putra" target="_blank"><i class="fa-brands fa-threads"></i></a>
+            </div>
+            <div class="footer-icons">
+                <a href="https://id.quora.com/profile/Ramaditya-Surya-Putra" target="_blank"><i class="fa-brands fa-quora"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+</div>
+</body>
+</html>
